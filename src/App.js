@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {HashRouter ,BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Detail from "./components/Detail";
 import Home from "./components/Home";
@@ -50,7 +50,7 @@ function App() {
   console.log(recipes)
 
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <div className="app">
         <Routes>
           <Route
@@ -77,7 +77,7 @@ function App() {
           />
         </Routes>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
