@@ -1,0 +1,47 @@
+.search-header {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)
+  ), url("../img/pexels-photo-2814828.jpeg");
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position:relative;
+  display: flex;
+}
+
+.search-recipes {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.search-recipes input {
+  outline: none;
+  width: 270px;
+  height: 30px;
+  font-weight: bold;
+  color: rgba(221, 105, 10, 0.774);
+}
+
+.search-recipes button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: rgb(233, 134, 21);
+  z-index: 2;
+}
+
+.search-recipes input:focus {
+  outline: none;
+}
+
+.search-showRecipes {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

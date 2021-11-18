@@ -1,0 +1,12 @@
+.navbar {
+  border-bottom: 2px solid rgba(255, 183, 74, 0.774);
+  color: rgba(255, 183, 74, 0.774);
+}
+
+small {
+  position: absolute;
+  font-size: 12px;
+  margin-left: 3px;
+  color: rgba(221, 105, 10, 0.774);
+  font-weight: bold;
+}

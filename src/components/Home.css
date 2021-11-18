@@ -1,0 +1,25 @@
+.areaFoods-title {
+  margin: 20px;
+}
+
+.home-logo {
+  display: none;
+  height: 300px;
+  margin-top: 70px;
+  position: relative;
+  width: 100%;
+}
+
+.home-logo img {
+  width: 300px;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+  .home-logo {
+    display: block;
+  }
+}

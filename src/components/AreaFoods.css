@@ -1,0 +1,11 @@
+.area-foods {
+  display: flex;
+  transform: scale(1);
+  overflow-x: scroll;
+  overflow-y: hidden;
+  height: 300px;
+}
+
+.area-foods::-webkit-scrollbar {
+  display: none;
+}

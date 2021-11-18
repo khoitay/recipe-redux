@@ -1,0 +1,61 @@
+.favourite-item {
+  height: 200px;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  position: relative;
+}
+
+.favourite-item-content {
+  margin-left: 20px;
+}
+
+.favourite-item-content span {
+  font-weight: bold;
+  color: rgba(221, 105, 10, 0.774);
+  text-decoration: none;
+}
+
+.item-instructions {
+  height: 50%;
+  color: rgb(117, 117, 117);
+  text-align: justify;
+  overflow: hidden;
+}
+
+.favourite-item img {
+  max-height: 100%;
+}
+
+.removeFavourite-btn {
+  font-weight: bold;
+  margin-left: 30px;
+  font-size: 15px;
+  background-color: transparent;
+  border: none;
+  color: rgba(221, 105, 10, 0.774);
+}
+
+@media (max-width: 768px) {
+  .favourite-item {
+    height: 400px;
+    flex-direction: column;
+  }
+
+  .favourite-item-content {
+    height: 200px;
+  }
+
+  .favourite-item img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .favourite-item-header {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}

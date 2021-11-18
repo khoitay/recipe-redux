@@ -1,0 +1,55 @@
+.detail-header {
+  margin-top: 70px;
+}
+
+.detail-icons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail .row {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.detail-icons .contact {
+  display: flex;
+  font-size: 20px;
+}
+
+.detail-icons .contact a {
+  margin-left: 20px;
+}
+
+.like {
+  border: none;
+  font-size: 25px;
+}
+
+.detail-left img {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+}
+
+.detail-right {
+  text-align: justify;
+  height: 550px;
+  overflow: scroll;
+}
+
+.detail .container {
+  margin-top: 30px;
+}
+
+.red {
+  color: red;
+}
+
+@media (max-width: 768px) {
+  .detail-left img {
+    height: 300px;
+  }
+}
