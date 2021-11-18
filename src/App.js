@@ -50,34 +50,7 @@ function App() {
   console.log(recipes)
 
   return (
-    <Router basename={window.location.pathname || ''}>
-      <div className="app">
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <Home
-                randomFood={randomFood}
-                frenchFoods={frenchFoods}
-                chineseFoods={chineseFoods}
-                indianFoods={indianFoods}
-                japaneseFoods={japaneseFoods}
-                canadianFoods={canadianFoods}
-              />
-            }
-          />
-          <Route path="/search" element={<Search recipes={recipes} searchValue={searchValue} />} />
-          <Route
-            path="/detail"
-            element={<Detail favouriteList={favouriteList}/>}
-          />
-          <Route
-            path="/favourites"
-            element={<FavouritesPage favouriteList={favouriteList} />}
-          />
-        </Routes>
-      </div>
-    </Router>
+    Hello world
   );
 }
 
