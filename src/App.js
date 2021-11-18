@@ -50,7 +50,7 @@ function App() {
   console.log(recipes)
 
   return (
-    <HashRouter>
+    <Router basename={window.location.pathname || ''}>
       <div className="app">
         <Routes>
           <Route
@@ -77,7 +77,7 @@ function App() {
           />
         </Routes>
       </div>
-    </HashRouter>
+    </Router>
   );
 }
 
