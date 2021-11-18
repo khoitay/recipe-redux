@@ -50,7 +50,7 @@ function App() {
   console.log(recipes)
 
   return (
-    <Router>
+    <Router basename="/recipe-redux">
       <div className="app">
         <Routes>
           <Route
