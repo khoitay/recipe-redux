@@ -50,7 +50,7 @@ function App() {
   console.log(recipes)
 
   return (
-    Hello world
+    my name is khoi
   );
 }
 
