@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/recipe-redux/static/css/main.8ce2c10f.chunk.css",
+    "main.js": "/recipe-redux/static/js/main.0d3dbc1e.chunk.js",
+    "main.js.map": "/recipe-redux/static/js/main.0d3dbc1e.chunk.js.map",
+    "runtime-main.js": "/recipe-redux/static/js/runtime-main.3bc673c3.js",
+    "runtime-main.js.map": "/recipe-redux/static/js/runtime-main.3bc673c3.js.map",
+    "static/js/2.51d50bec.chunk.js": "/recipe-redux/static/js/2.51d50bec.chunk.js",
+    "static/js/2.51d50bec.chunk.js.map": "/recipe-redux/static/js/2.51d50bec.chunk.js.map",
+    "index.html": "/recipe-redux/index.html",
+    "static/css/main.8ce2c10f.chunk.css.map": "/recipe-redux/static/css/main.8ce2c10f.chunk.css.map",
+    "static/js/2.51d50bec.chunk.js.LICENSE.txt": "/recipe-redux/static/js/2.51d50bec.chunk.js.LICENSE.txt",
+    "static/media/Favourites.css": "/recipe-redux/static/media/favHeader.c09d68cf.jpeg",
+    "static/media/Search.css": "/recipe-redux/static/media/pexels-photo-2814828.80ec2a39.jpeg",
+    "static/media/slogan.6992bfa5.png": "/recipe-redux/static/media/slogan.6992bfa5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3bc673c3.js",
+    "static/js/2.51d50bec.chunk.js",
+    "static/css/main.8ce2c10f.chunk.css",
+    "static/js/main.0d3dbc1e.chunk.js"
+  ]
+}
