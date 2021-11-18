@@ -50,7 +50,7 @@ function App() {
   console.log(recipes)
 
   return (
-     <Router basename={window.location.pathname || ''}>
+     <Router basename={process.env.PUBLIC_URL}>
       <div className="app">
         <Routes>
           <Route
