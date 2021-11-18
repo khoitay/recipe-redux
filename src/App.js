@@ -50,7 +50,7 @@ function App() {
   console.log(recipes)
 
   return (
-     <Router basename={"https://khoitay.github.io" + process.env.PUBLIC_URL}>
+     <Router basename={process.env.PUBLIC_URL}>
       <div className="app">
         <Routes>
           <Route
